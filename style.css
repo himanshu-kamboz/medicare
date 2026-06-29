@@ -507,3 +507,13 @@ ul span {
     color: #4c4cbe;
     text-align: center;
 }
+
+@media (max-width: 991px){
+    *{
+        overflow-x:hidden ;
+    }
+    header {
+        overflow: hidden;
+    }
+
+}
