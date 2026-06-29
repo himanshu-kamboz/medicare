@@ -440,7 +440,7 @@ ul span {
     border-radius: 10px;
 }
 
-#health_container{
+#health_container {
     height: 280px;
     width: 1000px;
     padding: 40px 200px;
@@ -451,52 +451,55 @@ ul span {
     border-radius: 10px;
 }
 
-#health_container h2{
+#health_container h2 {
     font-size: 32px;
     margin-bottom: 20px;
 }
 
-#health_container button{
+#health_container button {
     font-size: 15px;
-    color:rgba(76, 76, 190,0.9) ;
+    color: rgba(76, 76, 190, 0.9);
 }
 
-#footer_main{
+#footer_main {
     padding: 50px 0 0 20px;
     display: flex;
     gap: 20px;
     text-align: left;
     font-weight: 500;
     color: white;
-    background-color:#4c4cbe  ;
+    background-color: #4c4cbe;
 }
 
 #footer_main h2 {
     padding-bottom: 15px;
 }
-#footer_main li,a {
+
+#footer_main li,
+a {
     padding: 10px 0 0 0;
     list-style: none;
-    text-decoration:none;
-    color: rgba(255, 255, 255,0.85);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
 }
 
-#footer_content{
+#footer_content {
     width: 400px;
 }
 
 #footer_content img {
     margin: 0 0 20px;
 }
-#contact_us{
+
+#contact_us {
     width: 500px;
 }
 
-.footer{
+.footer {
     width: 22%;
 }
 
-#follow_list ul{
+#follow_list ul {
     display: flex;
     gap: 10px;
 }
@@ -508,12 +511,45 @@ ul span {
     text-align: center;
 }
 
-@media (max-width: 991px){
-    *{
-        overflow-x:hidden ;
-    }
-    header {
-        overflow: hidden;
+@media (max-width: 991px) {
+    body {
+        overflow-x: hidden;
     }
 
+    header {
+        height: auto;
+        width: 100%;
+        padding: 5px;
+        overflow-x: hidden;
+    }
+
+    .img {
+        height: 30px;
+        margin: 10px 5px 5px 5px;
+    }
+
+    #content {
+        display: none;
+    }
+
+    #btn {
+        height: 40px;
+        width: 150px;
+        font-size: 12px;
+        margin-left: 100px;
+    }
+
+    #main_content{
+       justify-content: flex-start;
+       align-items: flex-start;
+    }
+    h1 {
+        font-size: 30px;
+        line-height:40px ;
+    }
+
+    #heading-div{
+        width: 80%;
+
+    }
 }
