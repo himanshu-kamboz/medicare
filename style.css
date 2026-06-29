@@ -589,7 +589,7 @@ a {
 
     .form {
         height: auto;
-        width: 95%;
+        width: 98%;
     }
 
     #form-heading {
@@ -602,7 +602,7 @@ a {
     }
 
     #form{
-        margin-left: 10px;
+        margin-left: 4px;
     }
 
     #name-phone {
@@ -674,13 +674,6 @@ a {
     #btn_1 {
         height: 45px;
         width: 250px;
-        font-size: medium;
-        font-weight: 600;
-        color: white;
-        background-color: rgb(76, 76, 190);
-        border: 0;
-        border-radius: 999px;
-        cursor: pointer;
     }
 
     input:placeholder-shown {
