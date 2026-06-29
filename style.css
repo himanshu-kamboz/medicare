@@ -512,8 +512,18 @@ a {
 }
 
 @media (max-width: 991px) {
+    html {
+        overflow-x: hidden;
+    }
+
     body {
         overflow-x: hidden;
+    }
+
+    .btn {
+        height: 45px;
+        width: 150px;
+        font-size: 12px;
     }
 
     header {
@@ -537,11 +547,6 @@ a {
         width: 150px;
         font-size: 12px;
         margin-left: 100px;
-    }
-
-    #main_content {
-        /* justify-content: flex-start;
-        align-items: flex-start; */
     }
 
     h1 {
@@ -601,7 +606,7 @@ a {
         height: 450px;
     }
 
-    #form{
+    #form {
         margin-left: 4px;
     }
 
@@ -679,4 +684,60 @@ a {
     input:placeholder-shown {
         padding-left: 20px;
     }
+
+    #meet {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
+
+    #meet-img img {
+        height: 260px;
+        margin-left: 5px;
+        border-radius: 20px;
+    }
+
+    .meeting {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .meeting h2 {
+        font-size: 27px;
+    }
+
+    .meeting h3 {
+        font-size: 20px;
+    }
+
+    #cancer {
+        margin-top: 50px;
+    }
+
+    #cancer_content {
+        width: 90vw;
+    }
+
+    #cancer_content h2 {
+        font-size: 30px;
+    }
+
+    #cancer_content h3 {
+        font-size: 20px;
+    }
+
+    #cancer_content p {
+        width: 80vw;
+    }
+
+    #cancer_divs {
+        padding: 0px;
+    }
+
+    .all_divs {
+        flex-direction: column;
+    }
+
+    
 }
