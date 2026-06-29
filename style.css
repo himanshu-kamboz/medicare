@@ -739,5 +739,48 @@ a {
         flex-direction: column;
     }
 
-    
+    #btn5 {
+
+        margin: 10px 0 30px 0;
+    }
+
+    #aim {
+        width: 100vw;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    #aim_heading h2 {
+        font-size: 26px;
+    }
+
+    #aim_list {
+        display: flex;
+    }
+
+    #history {
+        flex-direction: column;
+    }
+
+    #aim_img img {
+        width: 100%;
+    }
+
+    #health_container {
+        height: auto;
+        width: 90vw;
+        padding: 20px 0px;
+        margin: 20px 20px;
+    }
+
+    #health_container h2 {
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+
+    #health_container button {
+        width: 60vw;
+        font-size: 12px;
+    }
+
 }
