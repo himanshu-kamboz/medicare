@@ -539,17 +539,151 @@ a {
         margin-left: 100px;
     }
 
-    #main_content{
-       justify-content: flex-start;
-       align-items: flex-start;
+    #main_content {
+        /* justify-content: flex-start;
+        align-items: flex-start; */
     }
+
     h1 {
         font-size: 30px;
-        line-height:40px ;
+        line-height: 40px;
     }
 
-    #heading-div{
+    #heading-div {
+        height: auto;
         width: 80%;
+        align-items: flex-start;
+    }
 
+    #heading-text {
+        margin: 10px 20px;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    #btn2 {
+        margin-left: 0;
+    }
+
+    #form-div {
+        height: auto;
+    }
+
+    #form-text {
+        height: auto;
+        width: 95%;
+        margin: 0 0 0 8px;
+        flex-direction: column;
+        bottom: 60px;
+    }
+
+    .form h2 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .form h3 {
+        font-size: 20px;
+        margin: 5px 10px;
+    }
+
+    .form {
+        height: auto;
+        width: 95%;
+    }
+
+    #form-heading {
+        text-align: left;
+        padding-right: 20px;
+    }
+
+    #form-heading {
+        height: 450px;
+    }
+
+    #form{
+        margin-left: 10px;
+    }
+
+    #name-phone {
+        flex-direction: column;
+    }
+
+    #name {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    #email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #email label {
+        margin-left: 0px;
+    }
+
+    #email input {
+        height: 45px;
+        width: 250px;
+        margin: 0;
+        border: 2px solid rgba(110, 110, 110, 0.5);
+        border-radius: 999px;
+    }
+
+    .form-dropdown label {
+        margin-left: 10px;
+    }
+
+    #selector {
+        flex-direction: column;
+        margin: 10px 0;
+    }
+
+    .form-group {
+        padding: 10px;
+    }
+
+    #specialist {
+        margin: 10px 10px;
+    }
+
+    #service {
+        margin: 10px 10px;
+    }
+
+    #date label {
+        margin-left: 10px;
+    }
+
+    #date input {
+        width: 250px;
+        margin-left: 10px;
+    }
+
+    #date {
+        display: flex;
+        flex-direction: column;
+    }
+
+    form button {
+        margin: 10px 10px;
+    }
+
+    #btn_1 {
+        height: 45px;
+        width: 250px;
+        font-size: medium;
+        font-weight: 600;
+        color: white;
+        background-color: rgb(76, 76, 190);
+        border: 0;
+        border-radius: 999px;
+        cursor: pointer;
+    }
+
+    input:placeholder-shown {
+        padding-left: 20px;
     }
 }
