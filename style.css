@@ -783,4 +783,27 @@ a {
         font-size: 12px;
     }
 
+    #footer_main {
+        flex-direction: column;
+    }
+
+
+    #footer_main h2 {
+        width: 50vw;
+        padding-bottom: 10px;
+    }
+
+    #footer_main li,
+    a {
+        width: 60vw;
+        padding: 10px 0 0 10px;
+    }
+
+    #footer_content {
+        width: 70vw;
+    }
+
+    #rights {
+        font-size: 14px; 
+    }
 }
