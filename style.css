@@ -813,9 +813,15 @@ ul span {
         width: 70vw;
     }
 
-    #contact_us li,
-    a {
-        font-size: 12px;
+    #contact_us a {
+        font-size: 12px !important;
+        padding: 10px;
+        word-break: break-word;
+        width: 70%;
+    }
+
+    #contact_us li {
+        font-size: 12px !important;
         padding: 10px;
         width: 70%;
     }
