@@ -829,6 +829,9 @@ ul span {
         margin-bottom: 20px;
     }
 
+    #follow_list a {
+        padding: 0;
+    }
     #rights {
         font-size: 14px;
     }
