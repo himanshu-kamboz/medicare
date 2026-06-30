@@ -803,7 +803,17 @@ a {
         width: 70vw;
     }
 
+    #contact_us li {
+        font-size: 14px;
+        padding: 10px;
+        width: 70%;
+    }
+
+    #follow_list ul {
+        margin-bottom: 20px;
+    }
+
     #rights {
-        font-size: 14px; 
+        font-size: 14px;
     }
 }
