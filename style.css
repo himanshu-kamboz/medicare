@@ -817,13 +817,12 @@ ul span {
         font-size: 10px !important;
         padding: 10px;
         word-break: break-word;
-        width: 70%;
+        width: 80%;
     }
 
     #contact_us li {
-        font-size: 12px !important;
         padding: 10px;
-        width: 70%;
+        width: 100%;
     }
 
     #follow_list ul {
