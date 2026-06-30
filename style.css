@@ -475,8 +475,14 @@ ul span {
     padding-bottom: 15px;
 }
 
-#footer_main li,
-a {
+#footer_main li {
+    padding: 10px 0 0 0;
+    list-style: none;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+#footer_main a {
     padding: 10px 0 0 0;
     list-style: none;
     text-decoration: none;
@@ -793,8 +799,12 @@ a {
         padding-bottom: 10px;
     }
 
-    #footer_main li,
-    a {
+    #footer_main li {
+        width: 60vw;
+        padding: 10px 0 0 10px;
+    }
+
+    #footer_main a {
         width: 60vw;
         padding: 10px 0 0 10px;
     }
@@ -803,7 +813,8 @@ a {
         width: 70vw;
     }
 
-    #contact_us li {
+    #contact_us li,
+    a {
         font-size: 12px;
         padding: 10px;
         width: 70%;
